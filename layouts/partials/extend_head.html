@@ -1,0 +1,24 @@
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Shelterwood Holdings",
+  "legalName": "Shelterwood Holdings Inc.",
+  "url": "https://shelterwood.ca",
+  "description": "Canadian holding company building a portfolio of AI-native businesses.",
+  "foundingDate": "2026",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "Ontario",
+      "addressCountry": "CA"
+    }
+  },
+  "areaServed": "CA",
+  "knowsAbout": ["Artificial Intelligence", "Healthcare IT", "Software Development", "Canadian Technology"]
+}
+</script>
+{{- end }}

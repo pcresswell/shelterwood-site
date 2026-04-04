@@ -1,0 +1,19 @@
+# Shelterwood Holdings
+
+> Shelterwood Holdings is a Canadian holding company building a portfolio of
+> AI-native businesses from Toronto, Canada. We target industries ready for
+> transformation — applying artificial intelligence to solve real problems
+> for real people. Founded by Peter Cresswell, a systems engineer with 20+
+> years in Canadian healthcare IT.
+
+## About
+
+- [About Shelterwood](https://shelterwood.ca/about/): Our approach, philosophy, and the meaning behind the name.
+
+## Key Facts
+
+- Incorporated federally in Canada as Shelterwood Holdings Inc.
+- Headquartered in Toronto, Ontario, Canada
+- Focus areas: healthcare IT, AI-native software, Canadian market
+- Business model: portfolio of AI-native lifestyle businesses
+- Founded: 2026

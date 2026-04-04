@@ -1,0 +1,47 @@
+baseURL = 'https://shelterwood.ca/'
+languageCode = 'en-ca'
+title = 'Shelterwood Holdings'
+theme = 'PaperMod'
+
+[params]
+  description = "AI-native business portfolio. Toronto, Canada."
+  env = "production"
+  defaultTheme = "dark"
+  showReadingTime = false
+  showShareButtons = false
+  showPostNavLinks = false
+  showBreadCrumbs = false
+  showCodeCopyButtons = true
+  showFullTextinRSS = true
+  hideFooter = false
+
+  [params.homeInfoParams]
+    Title = "Shelterwood Holdings"
+    Content = """
+Building a portfolio of AI-native businesses from Toronto, Canada.
+
+We target industries ready for transformation — applying artificial intelligence
+to solve real problems for real people.
+"""
+
+
+[params.assets]
+  favicon = "/favicon.ico"
+
+[params.cover]
+  hiddenInList = true
+  hiddenInSingle = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
