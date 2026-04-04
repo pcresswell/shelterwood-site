@@ -1,6 +1,6 @@
 baseURL = 'https://shelterwood.ca/'
 languageCode = 'en-ca'
-title = 'Shelterwood Holdings'
+title = 'Shelterwood AI'
 theme = 'PaperMod'
 
 [params]
@@ -16,7 +16,7 @@ theme = 'PaperMod'
   hideFooter = false
 
   [params.homeInfoParams]
-    Title = "Shelterwood Holdings"
+    Title = "Shelterwood AI"
     Content = """
 Building a portfolio of AI-native businesses from Toronto, Canada.
 

@@ -1,11 +1,11 @@
 ---
 title: "About"
 layout: "single"
-summary: "About Shelterwood Holdings"
+summary: "About Shelterwood AI"
 showToc: false
 ---
 
-Shelterwood Holdings is a Canadian holding company building a portfolio of AI-native businesses.
+Shelterwood AI is a Canadian holding company building a portfolio of AI-native businesses.
 
 ## Our Approach
 
