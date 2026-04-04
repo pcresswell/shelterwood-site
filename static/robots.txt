@@ -26,4 +26,4 @@ Allow: /
 User-agent: Cohere-AI
 Allow: /
 
-Sitemap: https://shelterwood.ca/sitemap.xml
+Sitemap: https://shelterwood.ai/sitemap.xml

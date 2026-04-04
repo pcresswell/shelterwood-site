@@ -1,4 +1,4 @@
-baseURL = 'https://shelterwood.ca/'
+baseURL = 'https://shelterwood.ai/'
 languageCode = 'en-ca'
 title = 'Shelterwood AI'
 theme = 'PaperMod'
