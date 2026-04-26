@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 310" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shelterwood AI — Mark only (no ground line) -->
+  <path d="M 50 290 Q 50 70 200 70 Q 350 70 350 290"
+        fill="none" stroke="#1F3A2E" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 110 290 Q 110 130 200 130 Q 290 130 290 290"
+        fill="none" stroke="#2D4A3E" stroke-width="18" stroke-linecap="round"/>
+  <rect x="178" y="220" width="44" height="44" rx="6" fill="#7BA088"/>
+</svg>

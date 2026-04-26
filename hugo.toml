@@ -6,7 +6,7 @@ theme = 'PaperMod'
 [params]
   description = "AI-native business portfolio. Toronto, Canada."
   env = "production"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   showReadingTime = false
   showShareButtons = false
   showPostNavLinks = false
@@ -14,6 +14,11 @@ theme = 'PaperMod'
   showCodeCopyButtons = true
   showFullTextinRSS = true
   hideFooter = false
+
+  [params.label]
+    text = "shelterwood"
+    icon = "/brand/logo-mark.svg"
+    iconHeight = 36
 
   [params.homeInfoParams]
     Title = "Shelterwood AI"
@@ -26,7 +31,10 @@ to solve real problems for real people.
 
 
 [params.assets]
-  favicon = "/favicon.ico"
+  favicon = "/favicon.svg"
+  favicon16x16 = "/favicon-16.png"
+  favicon32x32 = "/favicon-32.png"
+  apple_touch_icon = "/apple-touch-icon.png"
 
 [params.cover]
   hiddenInList = true

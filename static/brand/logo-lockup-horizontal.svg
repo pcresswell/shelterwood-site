@@ -1,0 +1,16 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shelterwood AI — Horizontal Lockup (mark + wordmark) -->
+  <g transform="translate(0, 20) scale(0.5)">
+    <path d="M 50 290 Q 50 70 200 70 Q 350 70 350 290" fill="none" stroke="#1F3A2E" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 110 290 Q 110 130 200 130 Q 290 130 290 290" fill="none" stroke="#2D4A3E" stroke-width="18" stroke-linecap="round"/>
+    <rect x="178" y="220" width="44" height="44" rx="6" fill="#7BA088"/>
+    <line x1="40" y1="298" x2="360" y2="298" stroke="#5C4A3A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="220" y="120"
+        font-family="Fraunces, 'New York', 'Iowan Old Style', Georgia, serif"
+        font-size="62" font-weight="500" fill="#1F3A2E" letter-spacing="-1.5">shelterwood</text>
+  <text x="222" y="148"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="11" font-weight="500" fill="#5C4A3A" letter-spacing="3">A I &#8226; I N C .</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shelterwood AI — Favicon (optimised for 16-48px sizes) -->
+  <!-- Bolder strokes and larger seed for legibility down to 16px -->
+  <path d="M 6 52 Q 6 10 32 10 Q 58 10 58 52"
+        fill="none" stroke="#1F3A2E" stroke-width="8" stroke-linecap="round"/>
+  <rect x="22" y="34" width="20" height="20" rx="3" fill="#7BA088"/>
+</svg>

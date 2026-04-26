@@ -1,0 +1,180 @@
+/* ============================================================
+   Shelterwood AI — Brand overrides for PaperMod
+   Locked palette + Fraunces (display) + Inter (body)
+   See ~/Documents/Work/shelterwood/corporate/brand/STYLEGUIDE.md
+   ============================================================ */
+
+/* ---------- Light theme (default — cream / forest) ---------- */
+:root {
+  --theme:           #F5EFE3;
+  --entry:           #FFFFFF;
+  --primary:         #1F3A2E;
+  --secondary:       #5C4A3A;
+  --tertiary:        #E5DFD3;
+  --content:         #2D4A3E;
+  --code-block-bg:   #1F3A2E;
+  --code-bg:         #EDE6D8;
+  --border:          #D5CEBE;
+  --hljs-bg:         #1F3A2E;
+
+  --shelterwood-sage: #7BA088;
+  --shelterwood-bark: #5C4A3A;
+}
+
+/* ---------- Dark theme (matches reverse logo) ---------- */
+:root[data-theme="dark"] {
+  --theme:           #1F3A2E;
+  --entry:           #2D4A3E;
+  --primary:         #F5EFE3;
+  --secondary:       rgba(245, 239, 227, 0.72);
+  --tertiary:        #3D5A4E;
+  --content:         rgba(245, 239, 227, 0.88);
+  --code-block-bg:   #142820;
+  --code-bg:         #3D5A4E;
+  --border:          rgba(245, 239, 227, 0.14);
+  --hljs-bg:         #142820;
+}
+
+/* ---------- Typography ---------- */
+:root {
+  --font-display: 'Fraunces', 'New York', 'Iowan Old Style', Georgia, serif;
+  --font-body:    'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  font-feature-settings: 'cv11', 'ss01', 'ss03';   /* nicer Inter forms */
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title, .post-entry .entry-header,
+.home-info .home-info-title,
+.first-entry .entry-header,
+.archive-month-header, .archive-year-header {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+h1, .post-title { font-size: 2.6rem; letter-spacing: -0.02em; }
+h2 { font-size: 1.7rem; }
+h3 { font-size: 1.3rem; }
+
+/* Logo + site title in Fraunces */
+.logo a, .logo-text, .nav .logo a {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+/* ---------- Header / nav ---------- */
+.header {
+  border-bottom: 1px solid var(--border);
+}
+
+/* Logo lockup: mark on left, "shelterwood" on top, "AI · INC." subtitle below */
+.nav .logo a, .logo a {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 0;
+  line-height: 1;
+  padding: 4px 0;
+}
+.nav .logo a img,
+.logo a img,
+header .logo img {
+  grid-row: 1 / 3;
+  grid-column: 1;
+  height: 40px;
+  width: auto;
+  margin: 0;
+  transform: none;
+  border-radius: 0;
+  align-self: center;
+}
+.nav .logo a::after, .logo a::after {
+  content: "AI · INC.";
+  grid-row: 2;
+  grid-column: 2;
+  font-family: var(--font-body);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  color: var(--secondary);
+  text-transform: uppercase;
+  margin-top: 4px;
+  align-self: start;
+}
+
+/* Menu items in Inter, lighter weight */
+#menu li a, .menu a {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  color: var(--secondary);
+}
+#menu li a:hover, .menu a:hover {
+  color: var(--primary);
+}
+
+/* ---------- Links ---------- */
+a, a:visited {
+  color: var(--primary);
+  text-decoration-color: var(--shelterwood-sage);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+a:hover {
+  color: var(--shelterwood-sage);
+}
+.post-entry a, .post-content a {
+  text-decoration: underline;
+  text-decoration-color: var(--shelterwood-sage);
+}
+
+/* Hide the underline on logo / nav links */
+.logo a, .logo a:hover,
+#menu li a, #menu li a:hover {
+  text-decoration: none;
+}
+
+/* ---------- Home info (landing copy) ---------- */
+.home-info .home-info-title {
+  font-size: 3rem;
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+.home-info-content {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--content);
+}
+
+/* ---------- Code ---------- */
+code, pre, .highlight {
+  font-family: var(--font-mono);
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  font-family: var(--font-body);
+  color: var(--secondary);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- Selection ---------- */
+::selection {
+  background: var(--shelterwood-sage);
+  color: var(--theme);
+}
